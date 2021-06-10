@@ -1,3 +1,6 @@
+//Auteur : COUTEAU Thomas
+//le 10/06/21
+//Tuto Gatsby
 // Step 1: Import React
 import * as React from 'react'
 
@@ -5,9 +8,9 @@ import * as React from 'react'
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
-      <h1>Welcome to my Gatsby site!</h1>
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <title>Page Principale</title>
+      <h1>Bienvenue sur mon site Gatsby!</h1>
+      <p>Je le programme à l'aide du tutoriel Gatsby.</p>
     </main>
   )
 }

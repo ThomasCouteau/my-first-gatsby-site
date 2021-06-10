@@ -1,3 +1,6 @@
+//Auteur : COUTEAU Thomas
+//le 10/06/21
+//Tuto Gatsby
 // Etape 1 : importation du composant
 import * as React from 'react'
 
@@ -12,5 +15,5 @@ const AboutPage = () => {
   )
 }
 
-// Step 3: Export your component
+// Step 3: Exportation du composant
 export default AboutPage
