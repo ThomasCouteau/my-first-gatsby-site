@@ -13,7 +13,7 @@ const HeraPage = () => {
         <p>Mon gécko se prénomme Héra, comme la déesse de la mythologie grecque.</p>
         <StaticImage
           alt="Héra, une gécko léopard de couleur beige avec des marques brunes, phase ''Raptor''."
-          src="../images/hera.jpg"
+          src="../images/hera.jpg" 
         />
     </Layout>
   )
