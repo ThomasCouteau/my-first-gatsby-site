@@ -7,8 +7,9 @@ import Layout from '../components/layout'
 
 // Step 2: Define your component
 const IndexPage = () => (
-    <Layout pageTitle="Je ne sais pas">
-      <p>Je n'avais pas d'idée.</p>
+    <Layout pageTitle="Mon Gécko">
+      <h1>Mon Gécko Léopard</h1>
+      <p>Mon petit lézard se prénomme Héra, comme une déesse de la mythologie grecque.</p>
     </Layout>
   )
 
