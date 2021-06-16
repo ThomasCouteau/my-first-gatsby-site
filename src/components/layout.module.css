@@ -4,7 +4,7 @@
     font-family: sans-serif;
   }
   .heading {
-    color: rebeccapurple;
+    color: rgb(169, 29, 204);
   }
   .nav-links {
     display: flex;
@@ -15,5 +15,5 @@
     padding-right: 2rem;
   }
   .nav-link-text {
-    color: black;
+    color: rgb(0, 0, 0);
   }
