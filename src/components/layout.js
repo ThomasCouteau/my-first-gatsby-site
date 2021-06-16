@@ -13,6 +13,7 @@ const Layout = ({ pageTitle, children }) => {
         <ul>
           <li><Link to="/">Retour au Menu</Link></li>
           <li><Link to="/about">A propos</Link></li>
+          <li><Link to="/hera">Mon Gécko</Link></li>
         </ul>
       </nav>
       <h1>{pageTitle}</h1>
