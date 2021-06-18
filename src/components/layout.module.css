@@ -17,3 +17,7 @@
   .nav-link-text {
     color: rgb(0, 0, 0);
   }
+  .StaticImage {
+    width : 20px;
+    height : auto ;
+}
