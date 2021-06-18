@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 
 // Step 2: Define your component
 const IndexPage = () => (
-    <Layout pageTitle="Page Principale">
+    <Layout pageTitle="Accueil">
       <p>Je le programme à l'aide du tutoriel Gatsby.</p>
     </Layout>
   )

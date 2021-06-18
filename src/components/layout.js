@@ -32,7 +32,7 @@ const Layout = ({ pageTitle, children }) => {
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-              Retour au Menu
+              Accueil
             </Link>
           </li>
           <li className={navLinkItem}>
