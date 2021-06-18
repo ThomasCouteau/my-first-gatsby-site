@@ -17,7 +17,15 @@
   .nav-link-text {
     color: rgb(0, 0, 0);
   }
-  .StaticImage {
+
+/*Pour le titre du site*/
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+}
+/*Test pour redimensionner les photos
+  img {
     width : 20px;
     height : auto ;
-}
+}*/
