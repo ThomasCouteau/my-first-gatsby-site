@@ -2,8 +2,10 @@
 //le 10/06/21
 //Tuto Gatsby
 import * as React from 'react'
+//pour les composants Gatsby
 import { Link, useStaticQuery, graphql } from 'gatsby'
 
+//pour le CSS
 import {
   container,
   heading,
@@ -23,6 +25,7 @@ const Layout = ({ pageTitle, children }) => {
     }
   }  
 `)
+
 
   return (
     <main className={container}>
