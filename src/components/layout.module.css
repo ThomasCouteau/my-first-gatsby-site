@@ -3,9 +3,12 @@
     max-width: 500px;
     font-family: sans-serif;
   }
+  /*Pour les en-têtes des pages web*/
   .heading {
     color: rgb(169, 29, 204);
   }
+  /*Pour les boutons de navigations
+  Lien*/
   .nav-links {
     display: flex;
     list-style: none;
@@ -14,6 +17,7 @@
   .nav-link-item {
     padding-right: 2rem;
   }
+  /*Pour le texte des liens de navigations*/
   .nav-link-text {
     color: rgb(0, 0, 0);
   }
@@ -25,7 +29,7 @@
   font-weight: 700;
 }
 /*Test pour redimensionner les photos
-  img {
+.heraimg {
     width : 20px;
     height : auto ;
 }*/

@@ -9,9 +9,11 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="A propos de moi">
-      <p>Salut à tous! Ceci est mon tout premier site que je construis avec Gatsby.</p>
-      <p>Je m'appelle Thomas, j'ai 19ans et je suis en BTS informatique au lycée Gustave Eiffel.</p>
-      </Layout>
+      <p>
+        Salut à tous! Ceci est mon tout premier site que je construis avec Gatsby. <br />
+        Je m'appelle Thomas, j'ai 19ans et je suis en BTS informatique au lycée Gustave Eiffel.
+      </p>
+    </Layout>
   )
 }
 
