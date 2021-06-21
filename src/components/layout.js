@@ -4,6 +4,8 @@
 import * as React from 'react'
 //pour les composants Gatsby
 import { Link, useStaticQuery, graphql } from 'gatsby'
+//pour les boutons MATERIAL-UI
+import { Button } from '@material-ui/core';
 
 //pour le CSS
 import {
@@ -30,23 +32,29 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <main className={container}>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
-      <p className={siteTitle}>{data.site.siteMetadata.title}</p> 
+      <p className={siteTitle}>{data.site.siteMetadata.title}</p>
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Accueil
-            </Link>
+            <Button variant="outlined" color="primary" href="#outlined-buttons">
+              <Link to="/" className={navLinkText}>
+                Accueil
+              </Link>
+            </Button>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              A propos de moi
-            </Link>
+            <Button variant="outlined" color="primary" href="#outlined-buttons">
+              <Link to="/about" className={navLinkText}>
+                A propos de moi
+              </Link>
+            </Button>
           </li>
           <li className={navLinkItem}>
-            <Link to="/hera" className={navLinkText}>
-              Mon Gécko
-            </Link>
+            <Button variant="outlined" color="primary" href="#outlined-buttons">
+              <Link to="/hera" className={navLinkText}>
+                Mon Gécko
+              </Link>
+            </Button>
           </li>
         </ul>
       </nav>
