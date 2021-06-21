@@ -10,14 +10,14 @@ import { StaticImage } from 'gatsby-plugin-image'
 const AboutPage = () => {
   return (
     <Layout pageTitle="A propos de moi">
-        <p>
-          Salut à tous! Ceci est mon tout premier site que je construis avec Gatsby. <br />
-          Je m'appelle Thomas, j'ai 19ans et je suis en BTS informatique au lycée Gustave Eiffel.
-        </p>
-        <StaticImage
-          alt="Photo de moi lorsque j'étais en vacances."
-          src="../images/moi.JPG"
-       />
+      <p>
+        Salut à tous! Ceci est mon tout premier site que je construis avec Gatsby. <br />
+        Je m'appelle Thomas, j'ai 19ans et je suis en BTS informatique au lycée Gustave Eiffel.
+      </p>
+      <StaticImage
+        alt="Photo de moi lorsque j'étais en vacances."
+        src="../images/moi.JPG"
+      />
     </Layout>
   )
 }
